@@ -1,0 +1,5 @@
+
+docker build -t (nombreimagen):v1 .
+
+
+docker run --rm -p (salida local):(port-configuradocont) <IMAGE>
