@@ -32,7 +32,7 @@ services:
     build: ./supermarket_ms
     environment: 
       DB_HOST: supermarket_db
-      DB_PORT: 3306
+      DB_PORT: 5432
       DB_USER: supermarket
       DB_PASSWORD: 2021
       DB_NAME: supermarket_db
